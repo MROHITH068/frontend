@@ -13,4 +13,6 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
+          component: frontend
+          port: 80
   tls: []
